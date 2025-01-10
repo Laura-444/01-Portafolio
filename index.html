@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar-nav">
+            <a href="#home"><img src="./img-bar-nav/home.svg" width="56px" height="56px" alt=""></a>
+            <a href="#work"><img src="./img-bar-nav/briefcase.svg" width="56px" height="56px" alt="work"></a>
+
+            <a href="#contact"><img src="./img-bar-nav/send.svg" width="56px" height="56px" alt="contact"></a>
+        </div>
+
+        <div class="section" id="home">
+            <div class="subsection">
+                <h1>Laura Valladares</h1>
+                <p class="info-job">Jr. Web Developer</p>
+                <div class="status">
+                </div>
+                <img class="profile" src="./imagenes/profile.png" alt="Laura Valladares">
+            </div>
+
+            <div class="subsection">
+                <p class="p-desc">Apasionada por el desarrollo web con una base en HTML,
+                     CSS y JavaScript, con un fuerte deseo de expandir mis habilidades, 
+                    especialmente en el ámbito fullstack.</p>
+                <div>
+                    <a href="https://github.com/Laura-444"></a><button class="btn-black">GITHUB</button>
+                    <a href="./LauraValladaresGarcia.pdf"> <button class="btn-lined">DESCARGAR CV</button>
+                    </a> 
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-images-container">
+            <img src="./imagenes/react.svg" width="56px" height="56px" alt="">
+            <img src="./imagenes/css.png" alt="">
+            <img src="./imagenes/figma.png" alt="">
+            <img src="./imagenes/html.png" alt="">
+            <img src="./imagenes/git.png" alt="">
+            <img src="./imagenes/js.png" alt="">
+            <img src="./imagenes/node-js.svg" width="56px" height="56px" alt="">
+        </div>
+
+        <div class="section">
+            <div class="subsection">
+                <h1 class="info">Cursos</h1>
+                <h3 class="textInfo">Curso Desarrollo Web</h3>
+                <p class="institute">MUJER DIGITAL</p>
+                <p class="date-experence">2024-2025</p>
+
+                <h3 class="textInfo">Curso Profesional de Diseño Web.</h3>
+                <p class="institute">UDEMY</p>
+                <p class="date-experence">2024</p>
+
+                <h3 class="textInfo">Fundamentos de Programación </h3>
+                <p class="institute">UDEMY</p>
+                <p class="date-experence">2024</p>
+            </div>
+
+            <div class="subsection">
+                <h1 class="info">Experiencia</h1>
+                <h3 class="textInfo">Servicio al Cliente</h3>
+                <p class="institute">UP SI VALE</p>
+                <p class="date-experence">2021-2022</p>
+
+                <h3 class="textInfo">Control de Calidad</h3>
+                <p class="institute">ZEISS</p>
+                <p class="date-experence">2021-2021</p>
+
+                <h3 class="textInfo">Back Office</h3>
+                <p class="institute">INOVA</p>
+                <p class="date-experence">2018-2020</p>
+            </div>
+        </div>
+
+        <div class="section-title">
+            <h2>PROYECTOS</h2>
+            <img src="./img-bar-nav/darkbriefcase.svg" width="30px" height="30px" alt="">
+        </div>
+        <div class="work-section" id="work">
+            <div class="card">
+                <img src="./img-work/gif-app.png" alt="">
+                <div class="card-footer">
+                    <h3>GIF APP</h3>
+                    <a href="https://app-expert-gif.netlify.app" class="btn">Info</a>
+                </div>
+                <div class="card">
+                    <img src="img-work/shop-app.png" alt="">
+                    <div class="card-footer">
+                        <h3>LIST APP</h3>
+                        <a href="https://github.com/Laura-444/shopping-app.git"
+                            class="btn">Info</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img-work/pagina-ss.png" alt="">
+                <div class="card-footer">
+                    <h3>WEBSITE</h3>
+                    <a href="https://thestudioghibli.netlify.app/"
+                        class="btn">Info</a>
+                </div>
+                <div class="card">
+                    <img src="img-work/generador-de-contrasenas.png" alt="">
+                    <div class="card-footer">
+                        <h3>PASSWORD GEN</h3>
+                        <a href="https://app-generator.netlify.app"
+                            class="btn">Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title" id="contact">
+            <h2>CONTACTO</h2>
+            <img src="./img-bar-nav/darksend.svg" width="30px" height="30px" alt="">
+        </div>
+
+        <div class="section-form">
+            <form class="form-content" id="form">
+                <div class="field">
+                    <label for="from_name">Nombre</label>
+                    <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                    <label for="email_id">Correo</label>
+                    <input type="text" name="email_id" id="email_id">
+                </div>
+                <div class="field">
+                    <label for="message">Mensaje</label>
+                    <input type="text" name="message" id="message">
+                </div>
+                <input class="submit-button" type="submit" id="button" value="Enviar">
+            </form>
+        </div>
+
+        <div class="social-media">
+            <a href="www.linkedin.com/in/laura-valladares-garcia"><button>LINKEDIN</button></a>
+            <a href="lauvagar41012@gmail.com">lula.valladares.g@gmail.com</a>
+        </div>
+
+    <script src="button.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('3lK_KgP9BW6hZFJpD')
+    </script>
+    <script src="./form.js"></script>
+</body>
+</html>
